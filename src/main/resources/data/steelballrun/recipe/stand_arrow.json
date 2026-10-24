@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    { "item": "minecraft:arrow" },
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:diamond" }
+  ],
+  "result": {
+    "id": "steelballrun:stand_arrow",
+    "count": 1
+  }
+}

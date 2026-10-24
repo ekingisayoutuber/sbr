@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "steelballrun",
+	"version": "${version}",
+	"name": "Steel Ball Run",
+	"description": "Stand users, Spin, and things that should not be seen. Stands are only visible to people who own one.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sbrmod.SteelBallRun"
+		],
+		"client": [
+			"com.sbrmod.client.SteelBallRunClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
